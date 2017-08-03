@@ -1,2 +1,97 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("http://fonts.googleapis.com/earlyaccess/hanna.css");
+@import url("htto://fonts.googleapis.com/earlyaccess/jejugothic.css");
+
+
+$primary: #0383c0;
+$light_gray: #ccc;
+
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Jeju Gothic', sans-serif;
+}
+
+.navbar {
+  margin: 30px 0 20px 0;
+  background: url(../images/navbar.png) repeat-x;
+  border: 1px $light_gray solid;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default a:hover {
+	background: none;
+	color: $primary !important;
+	font-weight: bold;
+}
+
+.logo {
+	width: 100%;
+	margin: 40px 0 0 0;
+	font-family: 'Hanna', sans-serif;
+}
+
+.primary {
+	color: $primary;
+}
+
+.subtext {
+	color: #666;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 0 0 30px;
+}
+
+header form {
+	float: right;
+	margin-top: 30px;
+	background: $primary;
+	padding: 15px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+#products img {
+	width: 50%;
+	height: auto;
+}
+
+.img-cover {
+	min-height: 200px;
+	max-height: 300px;
+	overflow: hidden;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.rating {
+	padding: 12px;
+}
+
+.jumbotron {
+	overflow: auto;
+	padding: 0 !important;
+}
+
+.jumbotron p {
+	font-size: 15px;
+}
+
+.tablist {
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 30%;
+
+}
+
+.tablist li {
+	background: #ccc;
+	list-style: none;
+	color: #666;
+	padding: 15px 10px 15px 20px;
+	margin-bottom: 5px;
+	width: 100%;
+	font-size: 15px;
+}

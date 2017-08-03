@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gamma: Photo Sharing App</title>
+    <title>Ecommerce</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -12,32 +12,265 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand em-text" href="index.html">Gamma</a>
+    <div class="container">
+      <header>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <h1 class="logo"><i class="fa fa-tag"></i> 내 <span class="primary">상점</span></h1>
+            <p class="subtext">부트스크랩 Ecommerce 템플릿</p>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <form class="form-inline">
+              
+              <div class="form-group">
+                <label>이메일</label>
+                <input type="email" class="form-control" placeholder="이메일">
+              </div>
+
+              <div class="form-group">
+                <label>비밀번호</label>
+                <input type="password" class="form-control" placeholder="비밀번호">
+              </div>
+              <button type="submit" class="btn btn-default">로그인</button>
+            </form>
+          </div>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+      </header>
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">홈</a></li>
+              <li><a href="#">신상품</a></li>
+              <li><a href="#">스페셜</a></li>
+              <li><a href="#">내 계정</a></li>
+              
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <form class="navbar-form">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="검색하기 ... ">
+                </div>
+                <button type="submit" class="btn btn-default">검색하기</button>
+              </form>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div>
+        <!-- Nav tabs -->
+          <ul class="tablist nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#feature" aria-controls="feature" role="tab" data-toggle="tab">특가 아이템</a></li>
+            <li role="presentation"><a href="#best" aria-controls="best" role="tab" data-toggle="tab">베스트 셀러</a></li>
+            <li role="presentation"><a href="#discount" aria-controls="discount" role="tab" data-toggle="tab">여름 특가</a></li>
+            <li role="presentation"><a href="#premium" aria-controls="premium" role="tab" data-toggle="tab">프리머엄 상품</a></li>
+            <li role="presentation"><a href="#gift" aria-controls="gift" role="tab" data-toggle="tab">선물 상품</a></li>
+          </ul> 
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="feature">
+              <div class="tab-text">
+                <h2>애플 아이폰6</h2>
+                <p>애플 아이폰6 중고 땡처리합니다 빨리들 사가세요 호갱님들아</p>
+                <a href="product.html" class="btn btn-default">더 읽기</a>
+              </div>
+              <img src="images/iphone.png" class="slide-img">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="best">
+              <div class="tab-text">
+                <h2>엑스박스 1</h2>
+                <p>애플 아이폰6 중고 땡처리합니다 빨리들 사가세요 호갱님들아</p>
+                <a href="product.html" class="btn btn-default">더 읽기</a>
+              </div>
+              <img src="images/xbox.png" class="slide-img">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="discount">
+              <div class="tab-text">
+                <h2>플레이스테이션 4</h2>
+                <p>애플 아이폰6 중고 땡처리합니다 빨리들 사가세요 호갱님들아</p>
+                <a href="product.html" class="btn btn-default">더 읽기</a>
+              </div>
+              <img src="images/ps4.png" class="slide-img">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="premium">
+              <div class="tab-text">
+                <h2>서피스 타블렛</h2>
+                <p>애플 아이폰6 중고 땡처리합니다 빨리들 사가세요 호갱님들아</p>
+                <a href="product.html" class="btn btn-default">더 읽기</a>
+              </div>
+              <img src="images/surface.png" class="slide-img">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="gift">
+              <div class="tab-text">
+                <h2>스마트 TV</h2>
+                <p>애플 아이폰6 중고 땡처리합니다 빨리들 사가세요 호갱님들아</p>
+                <a href="product.html" class="btn btn-default">더 읽기</a>
+              </div>
+              <img src="images/tv.png" class="slide-img">
+            </div>
+          </div>
+          
+
       </div>
-    </nav>
+      <section id="products">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <div class="img-cover">
+                <img src="images/s5.png">
+              </div>
+              <div class="caption">
+                <h4 class="pull-right">700,000원</h4>
+                <h4><a href="product.html">삼성 겔럭시 S7</a></h4>
+                <p>삼성 갤럭시 S7 짱좋아요 ! 많이들 구매하세요 호갱님들아</p>
+              </div>
+              <div class="rating">
+                <p class="pull-right">15 리뷰</p>
+                <p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <div class="img-cover">
+                <img src="images/ps4.png">
+              </div>
+              <div class="caption">
+                <h4 class="pull-right">700,000원</h4>
+                <h4><a href="product.html">플레이 스테이션</a></h4>
+                <p>삼성 갤럭시 S7 짱좋아요 ! 많이들 구매하세요 호갱님들아</p>
+              </div>
+              <div class="rating">
+                <p class="pull-right">8 리뷰</p>
+                <p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <div class="img-cover">
+                <img src="images/xbox.png">
+              </div>
+              <div class="caption">
+                <h4 class="pull-right">400,000원</h4>
+                <h4><a href="product.html">엑스박스</a></h4>
+                <p>삼성 갤럭시 S7 짱좋아요 ! 많이들 구매하세요 호갱님들아</p>
+              </div>
+              <div class="rating">
+                <p class="pull-right">8 리뷰</p>
+                <p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <div class="img-cover">
+                <img src="images/tv.png">
+              </div>
+              <div class="caption">
+                <h4 class="pull-right">600,000원</h4>
+                <h4><a href="product.html">비지오 스마트 TV</a></h4>
+                <p>삼성 갤럭시 S7 짱좋아요 ! 많이들 구매하세요 호갱님들아</p>
+              </div>
+              <div class="rating">
+                <p class="pull-right">22 리뷰</p>
+                <p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <div class="img-cover">
+                <img src="images/surface.png">
+              </div>
+              <div class="caption">
+                <h4 class="pull-right">700,000원</h4>
+                <h4><a href="product.html">서피스 타블렛</a></h4>
+                <p>삼성 갤럭시 S7 짱좋아요 ! 많이들 구매하세요 호갱님들아</p>
+              </div>
+              <div class="rating">
+                <p class="pull-right">8 리뷰</p>
+                <p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <div class="img-cover">
+                <img src="images/ipad.png">
+              </div>
+              <div class="caption">
+                <h4 class="pull-right">400,000원</h4>
+                <h4><a href="product.html">아이패드</a></h4>
+                <p>삼성 갤럭시 S7 짱좋아요 ! 많이들 구매하세요 호갱님들아</p>
+              </div>
+              <div class="rating">
+                <p class="pull-right">8 리뷰</p>
+                <p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div> <!-- /container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
